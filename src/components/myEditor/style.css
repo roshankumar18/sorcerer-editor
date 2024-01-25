@@ -1,0 +1,44 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 3rem; 
+    padding-right: 3rem; 
+    padding-top: 1rem; 
+    padding-bottom: 1rem;
+    
+}
+@media (min-width: 1024px) {
+    .app {
+      padding-left: 6rem; 
+      padding-right: 6rem; 
+    }
+  }
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.editor{
+    border-width: 2px;
+    height: 100%;
+    border-style: solid;
+    border-color: #38b2ac;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.button{
+    border-bottom-width: 6px;
+    border-right-width: 6px;
+    border-top-width: 2px;
+    border-left-width: 2px;
+    padding: 0.25rem;
+    width: 5rem;
+    border-color: #000;
+}
+.p{
+    flex:1 1 0;
+    text-align: center;
+}
